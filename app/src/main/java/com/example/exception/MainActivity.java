@@ -32,7 +32,7 @@ public class MainActivity extends MultiDexApplication {
     }
 
     public static Context getAppContext() {
-        return MyApplication.context;
+        return MainActivity.context;
     }
 
 
